@@ -1,9 +1,11 @@
-*.pyc          # скомпилированные файлы Python
-*.pyo          # оптимизированные файлы Python
-*.pyd          # файлы расширений Python (Windows)
-.pytest_cache/ # кэш pytest
-.mypy_cache/   # кэш mypy
-.env           # переменные окружения
-venv/          # виртуальное окружение
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.env
+venv/
 .venv/
-__pycache__/   # кэш python
+__pycache__/
+.pytest_cache
+__pycache__
